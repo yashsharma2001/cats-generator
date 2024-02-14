@@ -10,7 +10,7 @@ function generateCat() {
       catImage.src = imageUrl;
     });
 
-  fetch("https://cat-fact.herokuapp.com/facts/random")
+  fetch("https://meowfacts.herokuapp.com/")
     .then((response) => response.json())
     .then((data) => {
       const factText = data.text;
